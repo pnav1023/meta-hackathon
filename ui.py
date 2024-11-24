@@ -5,6 +5,8 @@ from groq import Groq
 from dotenv import load_dotenv
 import os
 
+CITY = "Austin"
+
 st.title("DermAI")
 
 if "assessed_image" not in st.session_state:
@@ -39,6 +41,7 @@ def chat():
                     "content": f"""
                         you are a helpful assistant. Respond in {st.session_state.language}
                         Here is the diagnosis of the user's rash as context: {st.session_state.diagnosis}
+                        Also, for additional context, the user is located in {CITY}.
                     """,
                 }
             ],
