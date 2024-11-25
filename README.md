@@ -7,8 +7,8 @@
 ## 🌟 **Features**
 
 - **AI-Powered Skin Analysis**  
-  Upload skin images to receive a detailed analysis of conditions such as acne, eczema, psoriasis, and more.  
-
+  Upload skin images to receive the probability you have one of seven skin cancer classifications (limited by model data) 
+  
 - **Personalized Recommendations**  
   Get tailored recommendations on actionable skin care guidelines and community centers nearby to seek care 
 
